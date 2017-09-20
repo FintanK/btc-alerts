@@ -1,0 +1,17 @@
+{
+  "name": "btc-alerts",
+  "version": "1.0.0",
+  "description": "Coinbase exchange BTC Price monitoring",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+  },
+  "author": "Fintan",
+  "license": "MIT",
+  "dependencies": {
+    "coinbase": "^2.0.6",
+    "http": "0.0.0",
+    "node-schedule": "^1.2.4",
+    "twilio": "^3.6.5"
+  }
+}
